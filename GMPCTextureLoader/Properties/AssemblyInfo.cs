@@ -1,18 +1,25 @@
-﻿using System.Reflection;
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
+using MelonLoader;
+using GHPC;
+using TextureLoaderFork;
 
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("GMPCTextureLoader")]
+[assembly: AssemblyTitle("TextureLoaderFork")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("GMPCTextureLoader")]
-[assembly: AssemblyCopyright("Copyright ©  2024")]
+[assembly: AssemblyProduct("TextureLoaderFork")]
+[assembly: AssemblyCopyright("Copyright ©  2026")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
+
+[assembly: MelonInfo(typeof(TextureLoaderForkClass), "Texture loader Lite", "1.0.0", "Andrix, Bluehawk")]
+[assembly: MelonPriority(101)]
+[assembly: MelonGame("Radian Simulations LLC", "GHPC")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
 // to COM components.  If you need to access a type in this assembly from
@@ -20,7 +27,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("178d7254-b5a2-4339-879d-b9de0864c9f2")]
+[assembly: Guid("ecf1a217-5798-4442-b0fc-b917f7c9b43c")]
 
 // Version information for an assembly consists of the following four values:
 //
